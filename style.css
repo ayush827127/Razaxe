@@ -1,0 +1,206 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --acent-color: #2294ed;
+    --acent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--primary-text-color);
+}
+
+h1,
+h2 {
+    font-size: 1.5em;
+    color: black;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: black;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 17px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.container {
+    max-width: 1146px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.hover-link {
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.hover-link:hover {
+    color: var(--acent-color);
+}
+
+.input-field {
+    width: 100%;
+}
+
+/* navbar */
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(to top, white, black 99%);
+    z-index: 10;
+}
+
+header a img {
+    height: 8vh;
+}
+
+header {
+    padding: 10px;
+    margin-inline: 0;
+}
+
+nav {
+    margin-left: 2rem;
+    width: 100%;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+/* welcome_message */
+
+.welcome_message {
+    position: relative;
+    top: 6rem;
+    margin-left: 28%;
+    padding: var(--padding-inline-section);
+}
+
+
+main {
+    overflow: hidden;
+}
+
+/* contact */
+#contact {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+#contact h2 {
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea,
+form button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+#contact .container div {
+    margin-top: 20px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* about */
+
+#about {
+    max-width: 800px;
+    padding: 20px;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+#section-services{
+    padding: 0 6rem;
+    color: black;
+    margin-bottom: 4rem;
+}
+
+
+/* footer */
+footer {
+    background-color: #db6930;
+    width: 100%;
+}
+
+#sub-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+#copyright {
+    padding: 3px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
